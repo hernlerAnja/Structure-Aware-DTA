@@ -385,6 +385,11 @@ class IaBNet_with_affinity(torch.nn.Module):
                     z = self.tranistion(z)
         # batch_dim = z.shape[0]
 
+        #################################### changes to the model ########################################
+        self.vec_repr = z
+        self.z_mask = z_mask
+        ##################################################################################################
+
         b = self.linear(z).squeeze(-1)
         y_pred = b[z_mask]
         y_pred = y_pred.sigmoid() * 10   # normalize to 0 to 10.
