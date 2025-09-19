@@ -58,4 +58,4 @@ If the installation of DeepPurpose od p2rank fails or is not working on your sys
 
 ## License
 
-This project is licensed inder the [MIT License](LICENSE)
+This project is licensed under the [MIT License](LICENSE)
