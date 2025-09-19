@@ -1,0 +1,15 @@
+name: tankbind-env
+channels:
+  - defaults
+dependencies:
+  - biopython
+  - cudatoolkit=11.3
+  - jupyterlab
+  - nglview
+  - pyg==2.5.2
+  - python=3.8
+  - pytorch
+  - rdkit=2021.03.4
+  - torchdrug=0.1.2
+  - xgboost
+  - lightgbm
