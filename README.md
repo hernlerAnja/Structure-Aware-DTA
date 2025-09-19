@@ -1,9 +1,15 @@
-# Structure-Aware TankBind Embeddings for Drug-Target Prediction
+# Structure-Aware TankBind Embeddings for Drug-Target Affinity Prediction
 Bachelor Thesis Project at JKU
 
 ---
 
 ## Overview
+
+This repository contains the code for the bachelor thesis “Structure-Aware TankBind Embeddings for Drug–Target Affinity Prediction”.
+
+Predicting drug–target binding affinity (DTA) is a crucial step in early-stage drug discovery, allowing researchers to prioritize promising compounds and reduce experimental costs. Traditional computational approaches, which rely on sequence- or graph-based representations of drugs and proteins, often fail to fully capture the three-dimensional structural context of molecular interactions.
+
+This project leverages structure-aware latent embeddings extracted from a pre-trained TankBind model as input features for downstream DTA prediction on the KIBA dataset. While TankBind alone exhibits limited generalization on KIBA, its latent representations encode rich geometric and biochemical information about protein–ligand interactions. By preprocessing KIBA to retrieve protein structures, predict binding pockets, and extract ligand and protein features, these embeddings are used to train predictive models such as MLP, XGBoost, and LightGBM.
 
 ---
 
