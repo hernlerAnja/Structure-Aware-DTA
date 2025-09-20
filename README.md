@@ -35,8 +35,8 @@ This project leverages structure-aware latent embeddings extracted from a pre-tr
 Clone this repository and create the environment from `environment.yml`:
 
 ```bash
-git clone 
-cd 
+git clone https://github.com/hernlerAnja/Structure-Aware-DTA.git
+cd Structure-Aware-DTA
 conda env create -f environment.yml
 conda activate tankbind-env
 ```
