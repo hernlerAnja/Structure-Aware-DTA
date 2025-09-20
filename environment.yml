@@ -13,3 +13,4 @@ dependencies:
   - torchdrug=0.1.2
   - xgboost
   - lightgbm
+  - lifelines
